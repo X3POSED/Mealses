@@ -1,7 +1,13 @@
 //Global Variables
+int appWidth, appHeight;
 //
 void setup() {
   //Display & Orientation
+  size (600, 400);
+  //fullscreen(); //displayWidth & displayHeight
+  displayOrientation(); //need smaller dimension (ternary operator)
+  appWidth = width;
+  appHeight height;
   //Population
   //Theme: i.e Face
   //Back Image with tint()
