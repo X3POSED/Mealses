@@ -3,14 +3,15 @@ int appWidth, appHeight;
 //
 void setup() {
   //Display & Orientation
-  size (600, 400);
-  //fullscreen(); //displayWidth & displayHeight
+  size(600, 400);
+  //fullScreen(); //displayWidth & displayHeight
   displayOrientation(); //need smaller dimension (ternary operator)
   appWidth = width;
-  appHeight height;
-  //Population
+  appHeight = height;
+  //
+  population();
   //Theme: i.e Face (will work in portrait and landscape)
-  facesetup();
+  faceSetup();
   //Back Image with tint()
 } //End setup
 //
@@ -25,6 +26,7 @@ void keyPressed() {
 } //End keyPressed
 //
 void mousePressed() {
+  //CAUTION: all buttons have Hover Over
   //OS System Start Button
   //Splash Screen Start Button
   //Quit Button
